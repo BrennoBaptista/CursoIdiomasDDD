@@ -1,0 +1,348 @@
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\appsettings.json
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.exe
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.deps.json
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.runtimeconfig.json
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.runtimeconfig.dev.json
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.Views.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.Views.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.csprojAssemblyReference.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.AssemblyInfoInputs.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.AssemblyInfo.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.csproj.CoreCompileInputs.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.RazorAssemblyInfo.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.RazorAssemblyInfo.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\staticwebassets\CursoIdiomas.Presentation.WebApp.StaticWebAssets.Manifest.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\staticwebassets\CursoIdiomas.Presentation.WebApp.StaticWebAssets.xml
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\scopedcss\bundle\CursoIdiomas.Presentation.WebApp.styles.css
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.TagHelpers.input.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.TagHelpers.output.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.RazorCoreGenerate.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Create.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Delete.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Details.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Index.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Turmas\Create.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Turmas\Delete.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Turmas\Details.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Turmas\Edit.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Turmas\Index.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.RazorTargetAssemblyInfo.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.RazorTargetAssemblyInfo.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.Views.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.csproj.CopyComplete
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.genruntimeconfig.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Edit.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.exe
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.deps.json
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.runtimeconfig.json
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.runtimeconfig.dev.json
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.Views.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.Views.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.AssemblyInfo.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.RazorAssemblyInfo.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.RazorAssemblyInfo.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\staticwebassets\CursoIdiomas.Presentation.WebApp.StaticWebAssets.Manifest.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\staticwebassets\CursoIdiomas.Presentation.WebApp.StaticWebAssets.xml
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\scopedcss\bundle\CursoIdiomas.Presentation.WebApp.styles.css
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.TagHelpers.input.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.TagHelpers.output.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.RazorCoreGenerate.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Create.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Delete.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Details.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Edit.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Alunos\Index.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Turmas\Create.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Turmas\Delete.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Turmas\Details.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Turmas\Edit.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Turmas\Index.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.RazorTargetAssemblyInfo.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.Views.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.csproj.CopyComplete
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\obj\Debug\netcoreapp3.1\CursoIdiomas.Presentation.WebApp.genruntimeconfig.cache

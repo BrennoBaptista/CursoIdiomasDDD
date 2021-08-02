@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CursoIdiomas.Application/1.0.0": {
+        "dependencies": {
+          "CursoIdiomas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CursoIdiomas.Application.dll": {}
+        }
+      },
+      "CursoIdiomas.Domain/1.0.0": {
+        "runtime": {
+          "CursoIdiomas.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CursoIdiomas.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CursoIdiomas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

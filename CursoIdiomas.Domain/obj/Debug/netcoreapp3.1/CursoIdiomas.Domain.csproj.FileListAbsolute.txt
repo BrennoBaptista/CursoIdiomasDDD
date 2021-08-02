@@ -1,0 +1,18 @@
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Domain\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.deps.json
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Domain\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Domain\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.AssemblyInfoInputs.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.AssemblyInfo.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.csproj.CoreCompileInputs.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Domain\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.deps.json
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Domain\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Domain\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.AssemblyInfo.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Domain\obj\Debug\netcoreapp3.1\CursoIdiomas.Domain.pdb

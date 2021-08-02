@@ -1,0 +1,24 @@
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.deps.json
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.pdb
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.csprojAssemblyReference.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.AssemblyInfoInputs.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.AssemblyInfo.cs
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.csproj.CoreCompileInputs.cache
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.csproj.CopyComplete
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.dll
+D:\OneDrive\My_Projects\VisualStudio\Projects\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.deps.json
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.pdb
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.AssemblyInfo.cs
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.csproj.CopyComplete
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.dll
+C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Application\obj\Debug\netcoreapp3.1\CursoIdiomas.Application.pdb
