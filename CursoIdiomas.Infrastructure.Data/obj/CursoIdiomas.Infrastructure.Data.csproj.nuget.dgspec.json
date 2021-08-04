@@ -1,17 +1,87 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj": {}
+    "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Application\\CursoIdiomas.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj",
-        "projectName": "CursoIdiomas.Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Application\\CursoIdiomas.Application.csproj",
+        "projectName": "CursoIdiomas.Application",
+        "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Application\\CursoIdiomas.Application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.205\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj",
+        "projectName": "CursoIdiomas.Domain",
+        "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -64,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj": {
+    "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj",
         "projectName": "CursoIdiomas.Infrastructure.Data",
-        "projectPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Infrastructure.Data\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -94,8 +164,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj"
+              "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Application\\CursoIdiomas.Application.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Application\\CursoIdiomas.Application.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj"
               }
             }
           }

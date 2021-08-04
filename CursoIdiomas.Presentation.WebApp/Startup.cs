@@ -1,16 +1,17 @@
-using AutoMapper;
-using CursoIdiomas.Application;
-using CursoIdiomas.Application.Interfaces;
+using CursoIdiomas.Application.Services;
 using CursoIdiomas.Domain.Interfaces.Repositories;
 using CursoIdiomas.Domain.Interfaces.Services;
 using CursoIdiomas.Domain.Services;
 using CursoIdiomas.Infrastructure.Data.Repositories;
-using CursoIdiomas.Presentation.WebApp.AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using CursoIdiomas.Application.Interfaces.Services;
+using Autofac;
+using CursoIdiomas.Infrastructure.CrossCutting.IoC;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CursoIdiomas.Presentation.WebApp
 {
@@ -26,27 +27,17 @@ namespace CursoIdiomas.Presentation.WebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var config = new MapperConfiguration(cfg => 
-            {
-                cfg.AddProfile<AlunoProfile>();
-                cfg.AddProfile<TurmaProfile>();
-            });
-            IMapper mapper = config.CreateMapper();
-            services.AddSingleton(mapper);
-
             services.AddTransient(typeof(IBaseAppService<,>), typeof(BaseAppService<,>));
-            services.AddTransient<ITurmaAppService, TurmaAppService>();
-            services.AddTransient<IAlunoAppService, AlunoAppService>();
-
             services.AddTransient(typeof(IBaseService<,>), typeof(BaseService<,>));
-            services.AddTransient<ITurmaService, TurmaService>();
-            services.AddTransient<IAlunoService, AlunoService>();
-
             services.AddTransient(typeof(IBaseRepository<,>), typeof(BaseRepository<,>));
-            services.AddTransient<ITurmaRepository, TurmaRepository>();
-            services.AddTransient<IAlunoRepository, AlunoRepository>();
-
+            
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddControllersWithViews();
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new ModuleIoC());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

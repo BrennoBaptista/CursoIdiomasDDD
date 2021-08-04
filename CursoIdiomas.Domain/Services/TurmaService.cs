@@ -17,19 +17,24 @@ namespace CursoIdiomas.Domain.Services
             _turmaRepository = turmaRepository;
         }
 
+        public string ObterCodigoPorId(Guid id)
+        {
+            return _turmaRepository.ObterCodigoPorId(id);
+        }
+
+        public int ObterNumeroDeVagasDisponiveis(Turma turma)
+        {
+            return _turmaRepository.ObterNumeroDeVagasDisponiveis(turma);
+        }
+
         public Turma ObterTurmaPorCodigo(string codigoTurma)
         {
             return _turmaRepository.ObterTurmaPorCodigo(codigoTurma);
         }
 
-        public Turma ObterTurmaPorId(Guid id)
+        public IEnumerable<Turma> ObterTurmasComVagasDisponiveis()
         {
-            return _turmaRepository.ObterTurmaPorId(id);
-        }
-
-        public IEnumerable<Turma> ObterTurmasComVagasDisponiveis(IEnumerable<Turma> turmas)
-        {
-            return _turmaRepository.ObterTurmasComVagasDisponiveis(turmas);
+            return _turmaRepository.ObterTurmasComVagasDisponiveis();
         }
 
         public bool VerificarSeCodigoExiste(string codigoTurma)

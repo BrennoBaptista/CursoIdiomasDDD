@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CursoIdiomas.Application\CursoIdiomas.Application.csproj" />
+    <ProjectReference Include="..\CursoIdiomas.Domain\CursoIdiomas.Domain.csproj" />
+    <ProjectReference Include="..\CursoIdiomas.Infrastructure.Data\CursoIdiomas.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>

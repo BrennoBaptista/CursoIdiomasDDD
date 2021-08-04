@@ -51,12 +51,6 @@ namespace CursoIdiomas.Infrastructure.Data.Migrations
                         .HasColumnType("varchar(15)")
                         .HasColumnName("Matricula");
 
-                    b.Property<bool>("MatriculaAtiva")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bit")
-                        .HasDefaultValue(false)
-                        .HasColumnName("MatriculaAtiva");
-
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -75,7 +69,7 @@ namespace CursoIdiomas.Infrastructure.Data.Migrations
                         .HasColumnType("varchar(13)")
                         .HasColumnName("Telefone");
 
-                    b.Property<Guid?>("TurmaId")
+                    b.Property<Guid>("TurmaId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
@@ -120,7 +114,8 @@ namespace CursoIdiomas.Infrastructure.Data.Migrations
                 {
                     b.HasOne("CursoIdiomas.Domain.Entities.Turma", "Turma")
                         .WithMany("Alunos")
-                        .HasForeignKey("TurmaId");
+                        .HasForeignKey("TurmaId")
+                        .IsRequired();
 
                     b.Navigation("Turma");
                 });

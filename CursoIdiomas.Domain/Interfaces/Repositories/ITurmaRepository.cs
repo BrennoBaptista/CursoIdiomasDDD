@@ -8,10 +8,11 @@ namespace CursoIdiomas.Domain.Interfaces.Repositories
     public interface ITurmaRepository : IBaseRepository<Turma, Guid>
     {
         Turma ObterTurmaPorCodigo(string codigoTurma);
-        Turma ObterTurmaPorId(Guid id);
+        string ObterCodigoPorId(Guid id);
+        int ObterNumeroDeVagasDisponiveis(Turma turma);
         bool VerificarSeCodigoExiste(string codigoTurma);
         bool VerificarSeHaVagasDisponiveis(Turma turma);
         bool VerificarSeHaAlunosNaTurma(Turma turma);
-        IEnumerable<Turma> ObterTurmasComVagasDisponiveis(IEnumerable<Turma> turmas);
+        IEnumerable<Turma> ObterTurmasComVagasDisponiveis();
     }
 }

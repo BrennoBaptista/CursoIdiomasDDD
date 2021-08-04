@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using CursoIdiomas.Application.Interfaces;
+using CursoIdiomas.Application.DTO;
+using CursoIdiomas.Application.Interfaces.Services;
 using CursoIdiomas.Domain.Entities;
-using CursoIdiomas.Presentation.WebApp.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -21,27 +21,62 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
         }
 
         // GET: Turmas
-        public async Task<ActionResult> Index()
+        public async Task<IActionResult> Index()
         {
-            var turmas = await _turmaAppService.ReadAllAsync();
-            var turmaViewModel = _mapper.Map<IEnumerable<Turma>, IEnumerable<TurmaViewModel>>(turmas);
-            return View(turmaViewModel);
+            try
+            {
+                var turmas = await _turmaAppService.ReadAllAsync();
+                var turmasDTO = _mapper.Map<IEnumerable<Turma>, IEnumerable<TurmaDTO>>(turmas);
+                return View(turmasDTO);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        // GET: Turmas com vagas disponiveis
+        public IActionResult TurmasComVagasDisponiveis()
+        {
+            try
+            {
+                var turmas = _turmaAppService.ObterTurmasComVagasDisponiveis();
+                var turmasDTO = _mapper.Map<IEnumerable<Turma>, IEnumerable<TurmaDTO>>(turmas);
+
+                foreach (TurmaDTO tdto in turmasDTO)
+                {
+                    tdto.VagasDisponiveis = _turmaAppService.ObterNumeroDeVagasDisponiveis(_mapper.Map<TurmaDTO, Turma>(tdto));
+                }
+
+                return View(turmasDTO);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
         // GET: Turmas/Details/5
-        public async Task<ActionResult> Details(Guid id)
+        public async Task<IActionResult> Details(Guid id)
         {
-            var turma = await _turmaAppService.ReadAsync(id);
-            if (turma == null)
-                return NotFound();
+            try
+            {
+                var turma = await _turmaAppService.ReadAsync(id);
+                if (turma == null)
+                    return NotFound();
 
-            var turmaViewModel = _mapper.Map<Turma, TurmaViewModel>(turma);
-
-            return View(turmaViewModel);
+                var turmaDTO = _mapper.Map<Turma, TurmaDTO>(turma);
+                turmaDTO.VagasDisponiveis = _turmaAppService.ObterNumeroDeVagasDisponiveis(turma);
+                return View(turmaDTO);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
         // GET: Turmas/Create
-        public ActionResult Create()
+        public IActionResult Create()
         {
             return View();
         }
@@ -49,79 +84,117 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
         // POST: Turmas/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(TurmaViewModel turmaViewModel)
+        public async Task<IActionResult> Create([Bind("Codigo, Idioma")] TurmaDTO turmaDTO)
         {
-            if (ModelState.IsValid)
+            try
             {
-                var turma = _mapper.Map<TurmaViewModel, Turma>(turmaViewModel);
-                
-                if (!_turmaAppService.VerificarSeCodigoExiste(turma.Codigo))
+                if (ModelState.IsValid)
                 {
-                    await _turmaAppService.CreateAsync(turma);
-                    //mensagem cadastro ok
-                }
-                else
-                {
-                    //mensagem falha
-                }
+                    var turma = _mapper.Map<TurmaDTO, Turma>(turmaDTO);
 
-                return RedirectToAction(nameof(Index));
+                    if (!_turmaAppService.VerificarSeCodigoExiste(turma.Codigo))
+                    {
+                        await _turmaAppService.CreateAsync(turma);
+                        return Ok("Turma cadastrada com sucesso!"); //substituir por mostrar uma mensagem na tela
+                    }
+                    else
+                    {
+                        return BadRequest("Falha: Este código de turma já existe"); //substituir por mostrar uma mensagem na tela
+                    }
+                }
+                return View(turmaDTO);
             }
-
-            return View(turmaViewModel);
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
         // GET: Turmas/Edit/5
-        public async Task<ActionResult> Edit(Guid id)
+        public async Task<IActionResult> Edit(Guid id)
         {
-            var turma = await _turmaAppService.ReadAsync(id);
-            if (turma == null)
-                return NotFound();
+            try
+            {
+                var turma = await _turmaAppService.ReadAsync(id);
+                if (turma == null)
+                    return NotFound();
 
-            var turmaViewModel = _mapper.Map<Turma, TurmaViewModel>(turma);
-            return View(turmaViewModel);
+                var turmaDTO = _mapper.Map<Turma, TurmaDTO>(turma);
+                return View(turmaDTO);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
         // POST: Turmas/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Guid Id, TurmaViewModel turmaViewModel)
+        public IActionResult Edit(Guid Id, TurmaDTO turmaDTO)
         {
-            if (ModelState.IsValid)
+            try
             {
-                var turma = _mapper.Map<TurmaViewModel, Turma>(turmaViewModel);
-                _turmaAppService.Update(turma);
-                return RedirectToAction(nameof(Index));
+                if (ModelState.IsValid)
+                {
+                    var turma = _mapper.Map<TurmaDTO, Turma>(turmaDTO);
+                    _turmaAppService.Update(turma);
+                    return Ok("Turma atualizada com sucesso!"); //substituir por mostrar uma mensagem na tela
+                }
+                return View(turmaDTO);
             }
-
-            return View(turmaViewModel);
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
         // GET: Turmas/Delete/5
-        public async Task<ActionResult> Delete(Guid id)
+        public async Task<IActionResult> Delete(Guid id)
         {
-            var turma = await _turmaAppService.ReadAsync(id);
-            var turmaViewModel = _mapper.Map<Turma, TurmaViewModel>(turma);
-
-            return View(turmaViewModel);
+            try
+            {
+                var turma = await _turmaAppService.ReadAsync(id);
+                var turmaDTO = _mapper.Map<Turma, TurmaDTO>(turma);
+                return View(turmaDTO);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
         // POST: Turmas/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> DeleteConfirmed(Guid id)
+        public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            if (!_turmaAppService.VerificarSeHaAlunosNaTurma(_turmaAppService.ObterTurmaPorId(id)))
+            try
             {
-                await _turmaAppService.DeleteAsync(id);
-                //mensagem cadastro ok
+                if (!_turmaAppService.VerificarSeHaAlunosNaTurma(await _turmaAppService.ReadAsync(id)))
+                {
+                    await _turmaAppService.DeleteAsync(id);
+                    return Ok("Turma removida com sucesso!"); //substituir por mostrar uma mensagem na tela
+                }
+                else
+                {
+                    return BadRequest("Falha: Existem alunos nesta turma"); //substituir por mostrar uma mensagem na tela
+                }
             }
-            else
+            catch (Exception e)
             {
-                //mensagem falha
+                throw e;
             }
-
-            return RedirectToAction(nameof(Index));
         }
     }
 }
+
+//try
+//{
+//    await _turmaAppService.DeleteAsync(id);
+//    return Ok("Turma removida com sucesso!");
+//}
+//catch (Exception ex)
+//{
+//    throw ex;
+//}

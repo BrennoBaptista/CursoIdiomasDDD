@@ -2,15 +2,16 @@
 using System;
 using System.Collections.Generic;
 
-namespace CursoIdiomas.Application.Interfaces
+namespace CursoIdiomas.Application.Interfaces.Services
 {
-    public interface ITurmaAppService :IBaseAppService<Turma, Guid>
+    public interface ITurmaAppService : IBaseAppService <Turma, Guid>
     {
         Turma ObterTurmaPorCodigo(string codigoTurma);
-        Turma ObterTurmaPorId(Guid id);
+        string ObterCodigoPorId(Guid id);
+        int ObterNumeroDeVagasDisponiveis(Turma turma);
         bool VerificarSeCodigoExiste(string codigoTurma);
         bool VerificarSeHaVagasDisponiveis(Turma turma);
         bool VerificarSeHaAlunosNaTurma(Turma turma);
-        IEnumerable<Turma> ObterTurmasComVagasDisponiveis(IEnumerable<Turma> turmas);
+        IEnumerable<Turma> ObterTurmasComVagasDisponiveis();
     }
 }

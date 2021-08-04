@@ -50,9 +50,7 @@ namespace CursoIdiomas.Infrastructure.Data.Context
                 .HasColumnName("Endereco")
                 .HasMaxLength(150);
 
-            builder.Property(a => a.MatriculaAtiva)
-                .HasColumnName("MatriculaAtiva")
-                .HasDefaultValue("false");
+            #region
             /*
             builder.OwnsOne(a => a.Telefone, telefone =>
             {
@@ -103,8 +101,9 @@ namespace CursoIdiomas.Infrastructure.Data.Context
                 .HasMaxLength(50);
             });
             */
+            #endregion
 
-            builder.HasOne(t => t.Turma).WithMany(a => a.Alunos)
+            builder.HasOne(t => t.Turma).WithMany(a => a.Alunos).HasForeignKey(a => a.TurmaId)
                 .OnDelete(DeleteBehavior.ClientSetNull);
         }
     }

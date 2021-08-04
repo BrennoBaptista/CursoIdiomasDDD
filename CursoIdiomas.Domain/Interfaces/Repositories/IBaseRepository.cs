@@ -12,6 +12,6 @@ namespace CursoIdiomas.Domain.Interfaces.Repositories
         Task<IEnumerable<TEntity>> ReadAllAsync();
         void Update(TEntity entity);
         Task DeleteAsync(TKey id);
-        void Dispose();
+        //void Dispose();
     }
 }

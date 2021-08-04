@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CursoIdiomas.Application\CursoIdiomas.Application.csproj" />
     <ProjectReference Include="..\CursoIdiomas.Domain\CursoIdiomas.Domain.csproj" />
   </ItemGroup>
 

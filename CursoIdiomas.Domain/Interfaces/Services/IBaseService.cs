@@ -13,6 +13,6 @@ namespace CursoIdiomas.Domain.Interfaces.Services
         void Update(TEntity entity);
         Task DeleteAsync(TKey id);
 
-        void Dispose();
+        //void Dispose();
     }
 }

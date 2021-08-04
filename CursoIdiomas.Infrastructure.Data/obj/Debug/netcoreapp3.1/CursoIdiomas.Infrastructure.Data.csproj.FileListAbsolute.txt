@@ -28,3 +28,20 @@ C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Dat
 C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.dll
 C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.pdb
 C:\Users\user\Desktop\Nova pasta\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.genruntimeconfig.cache
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.deps.json
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.runtimeconfig.json
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.runtimeconfig.dev.json
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.dll
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.pdb
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.dll
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.dll
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.pdb
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.pdb
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.csprojAssemblyReference.cache
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.csproj.CopyComplete
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.dll
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.pdb
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.Data\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.genruntimeconfig.cache

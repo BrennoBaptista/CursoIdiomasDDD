@@ -1,6 +1,4 @@
-﻿using CursoIdiomas.Domain.Entities.ValueObjects;
-using CursoIdiomas.Domain.ValueObjects;
-using System;
+﻿using System;
 
 namespace CursoIdiomas.Domain.Entities
 {
@@ -15,8 +13,7 @@ namespace CursoIdiomas.Domain.Entities
         public string Telefone { get; set; }
         public string Email { get; set; }
         public string Endereco { get; set; }
-        public bool MatriculaAtiva { get; set; }
-        public Turma Turma { get; set; }
-
+        public Guid TurmaId { get; set; }
+        public virtual Turma Turma { get; set; }
     }
 }

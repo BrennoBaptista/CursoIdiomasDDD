@@ -1,8 +1,9 @@
 ﻿using CursoIdiomas.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CursoIdiomas.Application.Interfaces
+namespace CursoIdiomas.Application.Interfaces.Services
 {
     public interface IBaseAppService<TEntity, TKey> where TEntity : EntidadeBase<TKey>
     {
@@ -12,7 +13,6 @@ namespace CursoIdiomas.Application.Interfaces
         Task<IEnumerable<TEntity>> ReadAllAsync();
         void Update(TEntity entity);
         Task DeleteAsync(TKey id);
-
-        void Dispose();
+        //void Dispose();
     }
 }

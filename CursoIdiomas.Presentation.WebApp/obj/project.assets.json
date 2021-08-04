@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Autofac/6.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {}
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll": {}
+        }
+      },
       "AutoMapper/10.1.1": {
         "type": "package",
         "dependencies": {
@@ -2595,6 +2620,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "CursoIdiomas.Domain": "1.0.0"
         },
         "compile": {
@@ -2614,10 +2640,27 @@
           "bin/placeholder/CursoIdiomas.Domain.dll": {}
         }
       },
+      "CursoIdiomas.Infrastructure.CrossCutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Autofac": "6.2.0",
+          "CursoIdiomas.Application": "1.0.0",
+          "CursoIdiomas.Domain": "1.0.0",
+          "CursoIdiomas.Infrastructure.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CursoIdiomas.Infrastructure.CrossCutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CursoIdiomas.Infrastructure.CrossCutting.dll": {}
+        }
+      },
       "CursoIdiomas.Infrastructure.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "CursoIdiomas.Application": "1.0.0",
           "CursoIdiomas.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
@@ -2632,6 +2675,45 @@
     }
   },
   "libraries": {
+    "Autofac/6.2.0": {
+      "sha512": "BX8IM0GANE38uSr4QwXL4PgA8vWWYt2P5cZzipn/vDnf0fDbPSGKSHEroJ09rB7ANxdyf7MdEgVs+pvL8kwYCg==",
+      "type": "package",
+      "path": "autofac/6.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.6.2.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.pdb",
+        "lib/net5.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.pdb",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/7.1.0": {
+      "sha512": "nm6rZREZ9tjdKXu9cmT69zHkZODagjCPlRRCOhiS1VqFFis9LQnMl18L4OYr8yfCW1WAQkFDD2CNaK/kF5Eqeg==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard2.1/Autofac.Extensions.DependencyInjection.xml"
+      ]
+    },
     "AutoMapper/10.1.1": {
       "sha512": "uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
       "type": "package",
@@ -8612,6 +8694,11 @@
       "path": "../CursoIdiomas.Domain/CursoIdiomas.Domain.csproj",
       "msbuildProject": "../CursoIdiomas.Domain/CursoIdiomas.Domain.csproj"
     },
+    "CursoIdiomas.Infrastructure.CrossCutting/1.0.0": {
+      "type": "project",
+      "path": "../CursoIdiomas.Infrastructure.CrossCutting/CursoIdiomas.Infrastructure.CrossCutting.csproj",
+      "msbuildProject": "../CursoIdiomas.Infrastructure.CrossCutting/CursoIdiomas.Infrastructure.CrossCutting.csproj"
+    },
     "CursoIdiomas.Infrastructure.Data/1.0.0": {
       "type": "project",
       "path": "../CursoIdiomas.Infrastructure.Data/CursoIdiomas.Infrastructure.Data.csproj",
@@ -8620,9 +8707,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "Autofac >= 6.2.0",
+      "Autofac.Extensions.DependencyInjection >= 7.1.0",
       "CursoIdiomas.Application >= 1.0.0",
       "CursoIdiomas.Domain >= 1.0.0",
+      "CursoIdiomas.Infrastructure.CrossCutting >= 1.0.0",
       "CursoIdiomas.Infrastructure.Data >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
     ]
@@ -8635,11 +8724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Presentation.WebApp\\CursoIdiomas.Presentation.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Presentation.WebApp\\CursoIdiomas.Presentation.WebApp.csproj",
       "projectName": "CursoIdiomas.Presentation.WebApp",
-      "projectPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Presentation.WebApp\\CursoIdiomas.Presentation.WebApp.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Presentation.WebApp\\CursoIdiomas.Presentation.WebApp.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Presentation.WebApp\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Presentation.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -8662,14 +8751,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Application\\CursoIdiomas.Application.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Application\\CursoIdiomas.Application.csproj"
+            "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Application\\CursoIdiomas.Application.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Application\\CursoIdiomas.Application.csproj"
             },
-            "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj"
+            "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj"
             },
-            "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj"
+            "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Infrastructure.CrossCutting\\CursoIdiomas.Infrastructure.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Infrastructure.CrossCutting\\CursoIdiomas.Infrastructure.CrossCutting.csproj"
+            },
+            "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Infrastructure.Data\\CursoIdiomas.Infrastructure.Data.csproj"
             }
           }
         }
@@ -8684,9 +8776,13 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+          "Autofac": {
             "target": "Package",
-            "version": "[8.1.1, )"
+            "version": "[6.2.0, )"
+          },
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[7.1.0, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",

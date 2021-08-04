@@ -1,13 +1,13 @@
-﻿using CursoIdiomas.Application.Interfaces;
+﻿using CursoIdiomas.Application.Interfaces.Services;
 using CursoIdiomas.Domain.Entities;
 using CursoIdiomas.Domain.Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CursoIdiomas.Application
+namespace CursoIdiomas.Application.Services
 {
-    public class BaseAppService<TEntity, TKey> : IDisposable, IBaseAppService<TEntity, TKey> where TEntity : EntidadeBase<TKey>
+    public class BaseAppService<TEntity, TKey> : /*IDisposable,*/ IBaseAppService<TEntity, TKey> where TEntity : EntidadeBase<TKey>
     {
         private readonly IBaseService<TEntity, TKey> _baseService;
         public BaseAppService(IBaseService<TEntity, TKey> baseService)
@@ -45,9 +45,9 @@ namespace CursoIdiomas.Application
             await _baseService.DeleteAsync(id);
         }
 
-        public void Dispose()
-        {
-            _baseService.Dispose();
-        }
+        //public void Dispose()
+        //{
+        //    _baseService.Dispose();
+        //}
     }
 }

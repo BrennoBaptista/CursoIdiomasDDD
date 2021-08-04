@@ -1,6 +1,7 @@
 ﻿using CursoIdiomas.Domain.Entities;
 using CursoIdiomas.Domain.Interfaces.Repositories;
 using CursoIdiomas.Infrastructure.Data.Context;
+using CursoIdiomas.Infrastructure.Data.Factories;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,12 +9,19 @@ using System.Threading.Tasks;
 
 namespace CursoIdiomas.Infrastructure.Data.Repositories
 {
-    public class BaseRepository<TEntity, TKey> : IDisposable, IBaseRepository<TEntity, TKey> where TEntity : EntidadeBase<TKey>
+    public class BaseRepository<TEntity, TKey> : IBaseRepository<TEntity, TKey> where TEntity : EntidadeBase<TKey>
     {
         protected CursoIdiomasContext db = new CursoIdiomasContext();
+        private readonly IIdFactory<TKey> _idFactory;
+
+        public BaseRepository(IIdFactory<TKey> idFactory)
+        {
+            _idFactory = idFactory;
+        }
 
         public async Task CreateAsync(TEntity entity)
         {
+            entity.Id = _idFactory.GenereteId();
             await db.Set<TEntity>().AddAsync(entity);
             db.SaveChanges();
         }
@@ -36,7 +44,6 @@ namespace CursoIdiomas.Infrastructure.Data.Repositories
         public void Update(TEntity entity)
         {
             db.Entry(entity).State = EntityState.Modified;
-            //db.Set<TEntity>().Update(entity);
             db.SaveChanges();
         }
 
@@ -44,11 +51,6 @@ namespace CursoIdiomas.Infrastructure.Data.Repositories
         {
             db.Set<TEntity>().Remove(await ReadAsync(id));
             db.SaveChanges();
-        }
-
-        public void Dispose()
-        {
-            this.Dispose();
         }
     }
 }

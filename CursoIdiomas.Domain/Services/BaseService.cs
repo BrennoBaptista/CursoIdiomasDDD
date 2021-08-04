@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CursoIdiomas.Domain.Services
 {
-    public class BaseService<TEntity, TKey> : IDisposable, IBaseService<TEntity, TKey> where TEntity : EntidadeBase<TKey>
+    public class BaseService<TEntity, TKey> : /*IDisposable,*/ IBaseService<TEntity, TKey> where TEntity : EntidadeBase<TKey>
     {
         private readonly IBaseRepository<TEntity, TKey> _repository;
         public BaseService(IBaseRepository<TEntity, TKey> repository)
@@ -45,9 +45,9 @@ namespace CursoIdiomas.Domain.Services
             await _repository.DeleteAsync(id);
         }
 
-        public void Dispose()
-        {
-            _repository.Dispose();
-        }
+        //public void Dispose()
+        //{
+        //    _repository.Dispose();
+        //}
     }
 }

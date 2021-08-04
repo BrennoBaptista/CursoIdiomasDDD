@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoIdiomas.Presentation.W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoIdiomas.Application", "CursoIdiomas.Application\CursoIdiomas.Application.csproj", "{C8AA49FD-D7B5-4325-B82B-B32396C108DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoIdiomas.Infrastructure.CrossCutting", "CursoIdiomas.Infrastructure.CrossCutting\CursoIdiomas.Infrastructure.CrossCutting.csproj", "{21386913-21D3-4FC7-9CC6-C5AC268F87CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{C8AA49FD-D7B5-4325-B82B-B32396C108DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8AA49FD-D7B5-4325-B82B-B32396C108DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8AA49FD-D7B5-4325-B82B-B32396C108DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21386913-21D3-4FC7-9CC6-C5AC268F87CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21386913-21D3-4FC7-9CC6-C5AC268F87CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21386913-21D3-4FC7-9CC6-C5AC268F87CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21386913-21D3-4FC7-9CC6-C5AC268F87CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{71ED10CC-DCD8-422F-88A5-2BD88083D1DC} = {547BB358-99BD-4D50-9E7E-E6E4C1AB8629}
 		{0C37EE15-CBDE-473F-BC47-5159A65AFC7C} = {71ED10CC-DCD8-422F-88A5-2BD88083D1DC}
 		{C8AA49FD-D7B5-4325-B82B-B32396C108DD} = {A50733D0-9497-4FDB-87B4-9D21EE58D281}
+		{21386913-21D3-4FC7-9CC6-C5AC268F87CE} = {F79E7DF5-0B70-4C65-8264-4E0894931CFF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7166C5A-721C-48D0-8BF1-A467F5AB3DD2}

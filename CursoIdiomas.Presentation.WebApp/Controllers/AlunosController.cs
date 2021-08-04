@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using CursoIdiomas.Application.Interfaces;
+using CursoIdiomas.Application.DTO;
+using CursoIdiomas.Application.Interfaces.Services;
 using CursoIdiomas.Domain.Entities;
-using CursoIdiomas.Presentation.WebApp.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -22,104 +22,177 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
             _mapper = mapper;
         }
 
-        // GET: AlunosController
+        // GET: Alunos
         public async Task<IActionResult> Index()
         {
-            var alunos = await _alunoAppService.ReadAllAsync();
-            var alunoViewModel = _mapper.Map<IEnumerable<Aluno>, IEnumerable<AlunoViewModel>>(alunos);
-            return View(alunoViewModel);
+            try
+            {
+                var alunos = await _alunoAppService.ReadAllAsync();
+                var alunosDTO = _mapper.Map<IEnumerable<Aluno>, IEnumerable<AlunoDTO>>(alunos);
+
+                foreach(AlunoDTO adto in alunosDTO)
+                {
+                    adto.CodigoTurma = _turmaAppService.ObterCodigoPorId(adto.TurmaId);
+                }
+                return View(alunosDTO);
+
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
-        // GET: AlunosController/Details/5
+        // GET: Alunos/Details/5
         public async Task<IActionResult> Details(Guid id)
         {
-            var aluno = await _alunoAppService.ReadAsync(id);
-            if (aluno == null)
-                return NotFound();
+            try
+            {
+                var aluno = await _alunoAppService.ReadAsync(id);
+                if (aluno == null)
+                    return NotFound();
 
-            var alunoViewModel = _mapper.Map<Aluno, AlunoViewModel>(aluno);
+                var alunoDTO = _mapper.Map<Aluno, AlunoDTO>(aluno);
 
-            return View(alunoViewModel);
+                var turma = await _turmaAppService.ReadAsync(aluno.TurmaId);
+                alunoDTO.CodigoTurma = turma.Codigo;
+
+                return View(alunoDTO);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
-        // GET: AlunosController/Create
+        // GET: Alunos/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: AlunosController/Create
+        // POST: Alunos/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(AlunoViewModel alunoViewModel)
+        public async Task<IActionResult> Create([Bind("Matricula, Nome, Sobrenome, Telefone, Email, Endereco, CodigoTurma")] AlunoDTO alunoDTO)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var aluno = _mapper.Map<AlunoViewModel, Aluno>(alunoViewModel);
-                    await _alunoAppService.CreateAsync(aluno);
-                    return RedirectToAction(nameof(Index));
+                    var aluno = _mapper.Map<AlunoDTO, Aluno>(alunoDTO);
+                    if (!_alunoAppService.VerificarSeMatriculaExiste(aluno.Matricula))
+                    {
+                        var turma = _turmaAppService.ObterTurmaPorCodigo(alunoDTO.CodigoTurma);
+                        if (turma == null)
+                            return NotFound("O código de turma informado não existe."); //substituir por mostrar uma mensagem na tela
+
+                        if (!_turmaAppService.VerificarSeHaVagasDisponiveis(turma))
+                            return BadRequest("Falha: Não há vagas disponíveis nesta turma"); //substituir por mostrar uma mensagem na tela
+
+                        aluno.TurmaId = turma.Id;
+                        await _alunoAppService.CreateAsync(aluno);
+                        return Ok("Aluno cadastrado com sucesso!"); //substituir por mostrar uma mensagem na tela
+                    }
+                    else
+                    {
+                        return BadRequest("Falha: Esta matrícula já existe"); //substituir por mostrar uma mensagem na tela
+                    }
                 }
-                else
-                    return View(alunoViewModel);
+                return View(alunoDTO);
             }
-            catch
+            catch (Exception e)
             {
-                return View();
+                throw e;
             }
         }
 
-        // GET: AlunosController/Edit/5
+        // GET: Alunos/Edit/5
         public async Task<IActionResult> Edit(Guid id)
         {
-            var aluno = await _alunoAppService.ReadAsync(id);
-            if (aluno == null)
-                return NotFound();
+            try
+            {
+                var aluno = await _alunoAppService.ReadAsync(id);
+                if (aluno == null)
+                    return NotFound();
 
-            var alunoViewModel = _mapper.Map<Aluno, AlunoViewModel>(aluno);
-            return View(alunoViewModel);
+                var alunoDTO = _mapper.Map<Aluno, AlunoDTO>(aluno);
+
+                var turma = await _turmaAppService.ReadAsync(aluno.TurmaId);
+                alunoDTO.CodigoTurma = turma.Codigo;
+
+                return View(alunoDTO);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
-        // POST: AlunosController/Edit/5
+        // POST: Alunos/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Guid Id, AlunoViewModel alunoViewModel)
+        public ActionResult Edit(Guid Id, AlunoDTO alunoDTO)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var aluno = _mapper.Map<AlunoViewModel, Aluno>(alunoViewModel);
+                    var aluno = _mapper.Map<AlunoDTO, Aluno>(alunoDTO);
+
+                    var turma = _turmaAppService.ObterTurmaPorCodigo(alunoDTO.CodigoTurma);
+                    if (turma == null)
+                        return NotFound("O código de turma informado não existe."); //substituir por mostrar uma mensagem na tela
+
+                    if (alunoDTO.TurmaId != turma.Id)
+                        if (!_turmaAppService.VerificarSeHaVagasDisponiveis(turma))
+                            return BadRequest("Falha: Não há vagas disponíveis nesta turma"); //substituir por mostrar uma mensagem na tela
+
+                    aluno.TurmaId = turma.Id;
                     _alunoAppService.Update(aluno);
-                    return RedirectToAction(nameof(Index));
+                    return Ok("Aluno atualizado com sucesso!"); //substituir por mostrar uma mensagem na tela
                 }
-                else
-                    return View(alunoViewModel);
+                return View(alunoDTO);
             }
-            catch
+            catch (Exception e)
             {
-                return View();
+                throw e;
             }
         }
 
-        // GET: AlunosController/Delete/5
+        // GET: Alunos/Delete/5
         public async Task<IActionResult> Delete(Guid id)
         {
-            var aluno = await _alunoAppService.ReadAsync(id);
-            var alunoViewModel = _mapper.Map<Aluno, AlunoViewModel>(aluno);
+            try
+            {
+                var aluno = await _alunoAppService.ReadAsync(id);
+                var alunoDTO = _mapper.Map<Aluno, AlunoDTO>(aluno);
 
-            return View(alunoViewModel);
+                var turma = await _turmaAppService.ReadAsync(aluno.TurmaId);
+                alunoDTO.CodigoTurma = turma.Codigo;
+
+                return View(alunoDTO);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
 
-        // POST: AlunosController/Delete/5
+        // POST: Alunos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
-            await _alunoAppService.DeleteAsync(id);
-            return RedirectToAction(nameof(Index));
-
+            try
+            {
+                await _alunoAppService.DeleteAsync(id);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
     }
 }

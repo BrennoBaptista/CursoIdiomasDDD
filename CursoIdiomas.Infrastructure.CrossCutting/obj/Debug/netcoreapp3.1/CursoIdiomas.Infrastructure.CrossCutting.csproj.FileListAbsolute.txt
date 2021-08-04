@@ -1,0 +1,16 @@
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.CrossCutting.deps.json
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.CrossCutting.dll
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.CrossCutting.pdb
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.dll
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.dll
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.dll
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\CursoIdiomas.Application.pdb
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\CursoIdiomas.Domain.pdb
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\bin\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.Data.pdb
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.CrossCutting.csprojAssemblyReference.cache
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.CrossCutting.AssemblyInfo.cs
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.CrossCutting.csproj.CopyComplete
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.CrossCutting.dll
+C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Infrastructure.CrossCutting\obj\Debug\netcoreapp3.1\CursoIdiomas.Infrastructure.CrossCutting.pdb

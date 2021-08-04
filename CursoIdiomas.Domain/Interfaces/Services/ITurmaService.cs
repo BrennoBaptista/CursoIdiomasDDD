@@ -7,10 +7,11 @@ namespace CursoIdiomas.Domain.Interfaces.Services
     public interface ITurmaService : IBaseService<Turma, Guid>
     {
         Turma ObterTurmaPorCodigo(string codigoTurma);
-        Turma ObterTurmaPorId(Guid id);
+        string ObterCodigoPorId(Guid id);
+        int ObterNumeroDeVagasDisponiveis(Turma turma);
         bool VerificarSeCodigoExiste(string codigoTurma);
         bool VerificarSeHaVagasDisponiveis(Turma turma);
         bool VerificarSeHaAlunosNaTurma(Turma turma);
-        IEnumerable<Turma> ObterTurmasComVagasDisponiveis(IEnumerable<Turma> turmas);
+        IEnumerable<Turma> ObterTurmasComVagasDisponiveis();
     }
 }

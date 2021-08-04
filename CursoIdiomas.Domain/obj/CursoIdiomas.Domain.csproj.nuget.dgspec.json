@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {}
+    "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj",
         "projectName": "CursoIdiomas.Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\CursoIdiomas.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Nova pasta (2)\\CursoIdiomas.Domain\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CursoIdiomasDDD\\CursoIdiomas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

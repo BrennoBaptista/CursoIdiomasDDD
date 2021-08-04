@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace CursoIdiomas.Presentation.WebApp.ViewModels
+namespace CursoIdiomas.Application.DTO
 {
-    public class TurmaViewModel
+    public class TurmaDTO
     {
         [Key]
         public Guid Id { get; set; }
@@ -21,6 +21,9 @@ namespace CursoIdiomas.Presentation.WebApp.ViewModels
         [MinLength(5, ErrorMessage = "Mínimo {0} caracteres")]
         public string Idioma { get; set; }
 
-        public List<AlunoViewModel> Alunos { get; set; }
+        [DisplayName("Vagas Disponíveis")]
+        public int VagasDisponiveis { get; set; }
+
+        public ICollection<AlunoDTO> Alunos { get; set; }
     }
 }

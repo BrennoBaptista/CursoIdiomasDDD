@@ -2,16 +2,16 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace CursoIdiomas.Presentation.WebApp.ViewModels
+namespace CursoIdiomas.Application.DTO
 {
-    public class AlunoViewModel
+    public class AlunoDTO
     {
         [Key]
         public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo Matrícula")]
-        [MaxLength(15, ErrorMessage ="Máximo {0} caracteres")]
-        [MinLength(5, ErrorMessage ="Mínimo {0} caracteres")]
+        [MaxLength(15, ErrorMessage = "Máximo {0} caracteres")]
+        [MinLength(5, ErrorMessage = "Mínimo {0} caracteres")]
         [DisplayName("Matrícula")]
         public string Matricula { get; set; }
 
@@ -43,9 +43,11 @@ namespace CursoIdiomas.Presentation.WebApp.ViewModels
         [DisplayName("Endereço")]
         public string Endereco { get; set; }
 
-        [DisplayName("Status da Matrícula")]
-        public bool MatriculaAtiva { get; set; }
-
-        public virtual TurmaViewModel Turma { get; set; }
+        [Required(ErrorMessage = "Preencha o campo Código da Turma")]
+        [MaxLength(50, ErrorMessage = "Máximo {0} caracteres")]
+        [MinLength(5, ErrorMessage = "Mínimo {0} caracteres")]
+        [DisplayName("Turma")]
+        public string CodigoTurma { get; set; }
+        public Guid TurmaId { get; set; }
     }
 }

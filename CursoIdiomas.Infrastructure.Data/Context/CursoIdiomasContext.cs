@@ -55,13 +55,11 @@ namespace CursoIdiomas.Infrastructure.Data.Context
                 if (entry.State == EntityState.Added)
                 {
                     entry.Property("DataCriacao").CurrentValue = DateTime.Now;
-                    entry.Property("Id").CurrentValue = Guid.NewGuid();
                 }
 
                 if (entry.State == EntityState.Modified)
                 {
                     entry.Property("DataCriacao").IsModified = false;
-                    entry.Property("Id").IsModified = false;
                     entry.Property("DataModificacao").CurrentValue = DateTime.Now;
                 }
             }
