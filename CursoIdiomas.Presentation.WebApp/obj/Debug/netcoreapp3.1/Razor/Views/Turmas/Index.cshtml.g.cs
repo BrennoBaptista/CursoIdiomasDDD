@@ -21,13 +21,13 @@ using CursoIdiomas.Presentation.WebApp;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\Views\_ViewImports.cshtml"
-using CursoIdiomas.Presentation.WebApp.Models;
+using CursoIdiomas.Presentation.WebApp.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"570d2675c86ca0737a90e3b054ac5619844485c2", @"/Views/Turmas/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bb0cd831796efc5f6f0ea4df784e035f370b4d45", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2dcbefc13c38d2a010a719f21a4f198beff9d275", @"/Views/_ViewImports.cshtml")]
     public class Views_Turmas_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<CursoIdiomas.Application.DTO.TurmaDTO>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -69,7 +69,7 @@ using CursoIdiomas.Presentation.WebApp.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<h1>Índice</h1>\r\n\r\n<p>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "570d2675c86ca0737a90e3b054ac5619844485c25016", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "570d2675c86ca0737a90e3b054ac5619844485c25020", async() => {
                 WriteLiteral("Criar novo");
             }
             );
@@ -85,7 +85,7 @@ using CursoIdiomas.Presentation.WebApp.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "570d2675c86ca0737a90e3b054ac5619844485c26183", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "570d2675c86ca0737a90e3b054ac5619844485c26187", async() => {
                 WriteLiteral(" | Turmas com vagas disponiveis");
             }
             );
@@ -142,7 +142,7 @@ using CursoIdiomas.Presentation.WebApp.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n                </td>\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "570d2675c86ca0737a90e3b054ac5619844485c29186", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "570d2675c86ca0737a90e3b054ac5619844485c29190", async() => {
                 WriteLiteral("Editar");
             }
             );
@@ -173,7 +173,7 @@ using CursoIdiomas.Presentation.WebApp.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "570d2675c86ca0737a90e3b054ac5619844485c211378", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "570d2675c86ca0737a90e3b054ac5619844485c211382", async() => {
                 WriteLiteral("Detalhes");
             }
             );
@@ -204,7 +204,7 @@ using CursoIdiomas.Presentation.WebApp.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "570d2675c86ca0737a90e3b054ac5619844485c213576", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "570d2675c86ca0737a90e3b054ac5619844485c213580", async() => {
                 WriteLiteral("Deletar");
             }
             );

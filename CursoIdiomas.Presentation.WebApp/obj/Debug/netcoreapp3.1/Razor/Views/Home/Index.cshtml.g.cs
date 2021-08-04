@@ -21,13 +21,13 @@ using CursoIdiomas.Presentation.WebApp;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\Views\_ViewImports.cshtml"
-using CursoIdiomas.Presentation.WebApp.Models;
+using CursoIdiomas.Presentation.WebApp.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bb0cd831796efc5f6f0ea4df784e035f370b4d45", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2dcbefc13c38d2a010a719f21a4f198beff9d275", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

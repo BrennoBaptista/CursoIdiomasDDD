@@ -1,6 +1,6 @@
 using System;
 
-namespace CursoIdiomas.Presentation.WebApp.Models
+namespace CursoIdiomas.Presentation.WebApp.ViewModels
 {
     public class ErrorViewModel
     {

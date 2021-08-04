@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Turmas] (
+    [Id]              UNIQUEIDENTIFIER NOT NULL,
+    [Codigo]          VARCHAR (50)     NOT NULL,
+    [Idioma]          VARCHAR (50)     NOT NULL,
+    [DataCriacao]     DATE             NOT NULL,
+    [DataModificacao] DATE             NOT NULL,
+    CONSTRAINT [PK_Turmas] PRIMARY KEY CLUSTERED ([Id] ASC)
+);

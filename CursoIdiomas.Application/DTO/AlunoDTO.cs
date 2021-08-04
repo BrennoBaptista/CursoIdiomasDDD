@@ -9,6 +9,8 @@ namespace CursoIdiomas.Application.DTO
         [Key]
         public Guid Id { get; set; }
 
+        public Guid TurmaId { get; set; }
+
         [Required(ErrorMessage = "Preencha o campo Matrícula")]
         [MaxLength(15, ErrorMessage = "Máximo {0} caracteres")]
         [MinLength(5, ErrorMessage = "Mínimo {0} caracteres")]
@@ -48,6 +50,6 @@ namespace CursoIdiomas.Application.DTO
         [MinLength(5, ErrorMessage = "Mínimo {0} caracteres")]
         [DisplayName("Turma")]
         public string CodigoTurma { get; set; }
-        public Guid TurmaId { get; set; }
+        
     }
 }

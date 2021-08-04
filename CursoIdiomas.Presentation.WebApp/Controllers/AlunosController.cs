@@ -30,7 +30,7 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
                 var alunos = await _alunoAppService.ReadAllAsync();
                 var alunosDTO = _mapper.Map<IEnumerable<Aluno>, IEnumerable<AlunoDTO>>(alunos);
 
-                foreach(AlunoDTO adto in alunosDTO)
+                foreach (AlunoDTO adto in alunosDTO)
                 {
                     adto.CodigoTurma = _turmaAppService.ObterCodigoPorId(adto.TurmaId);
                 }
@@ -85,14 +85,14 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
                     {
                         var turma = _turmaAppService.ObterTurmaPorCodigo(alunoDTO.CodigoTurma);
                         if (turma == null)
-                            return NotFound("O código de turma informado não existe."); //substituir por mostrar uma mensagem na tela
+                            return NotFound("Falha: O código de turma informado não existe."); //substituir por mostrar uma mensagem na tela
 
                         if (!_turmaAppService.VerificarSeHaVagasDisponiveis(turma))
                             return BadRequest("Falha: Não há vagas disponíveis nesta turma"); //substituir por mostrar uma mensagem na tela
 
                         aluno.TurmaId = turma.Id;
                         await _alunoAppService.CreateAsync(aluno);
-                        return Ok("Aluno cadastrado com sucesso!"); //substituir por mostrar uma mensagem na tela
+                        return RedirectToAction(nameof(Index));
                     }
                     else
                     {
@@ -132,25 +132,38 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
         // POST: Alunos/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(Guid Id, AlunoDTO alunoDTO)
+        public IActionResult Edit(Guid id, AlunoDTO alunoDTO)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
                     var aluno = _mapper.Map<AlunoDTO, Aluno>(alunoDTO);
-
                     var turma = _turmaAppService.ObterTurmaPorCodigo(alunoDTO.CodigoTurma);
-                    if (turma == null)
-                        return NotFound("O código de turma informado não existe."); //substituir por mostrar uma mensagem na tela
 
-                    if (alunoDTO.TurmaId != turma.Id)
-                        if (!_turmaAppService.VerificarSeHaVagasDisponiveis(turma))
-                            return BadRequest("Falha: Não há vagas disponíveis nesta turma"); //substituir por mostrar uma mensagem na tela
+                    if (turma != null)
+                    {
+                        if (aluno.TurmaId == turma.Id)
+                        {
+                            _alunoAppService.Update(aluno);
+                            return RedirectToAction(nameof(Index));
+                        }
+                        else
+                        {
+                            if (!_turmaAppService.VerificarSeHaVagasDisponiveis(turma))
+                                return BadRequest("Falha: Não há vagas disponíveis nesta turma"); //Substituir por mostrar uma mensagem na tela
 
-                    aluno.TurmaId = turma.Id;
-                    _alunoAppService.Update(aluno);
-                    return Ok("Aluno atualizado com sucesso!"); //substituir por mostrar uma mensagem na tela
+                            aluno.Turma = turma;
+                            aluno.TurmaId = turma.Id;
+                            _alunoAppService.Update(aluno);
+                            return RedirectToAction(nameof(Index));
+                        }
+                    }
+                    else
+                    {
+                        return NotFound("Falha: O código de turma informado não existe."); //Substituir por mostrar uma mensagem na tela
+                    }
+
                 }
                 return View(alunoDTO);
             }

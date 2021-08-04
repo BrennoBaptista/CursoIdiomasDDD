@@ -21,13 +21,13 @@ using CursoIdiomas.Presentation.WebApp;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\Views\_ViewImports.cshtml"
-using CursoIdiomas.Presentation.WebApp.Models;
+using CursoIdiomas.Presentation.WebApp.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8140ad671e4427235c5885e12bb6a927320b3b4f", @"/Views/Alunos/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bb0cd831796efc5f6f0ea4df784e035f370b4d45", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2dcbefc13c38d2a010a719f21a4f198beff9d275", @"/Views/_ViewImports.cshtml")]
     public class Views_Alunos_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<CursoIdiomas.Application.DTO.AlunoDTO>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -185,7 +185,7 @@ Write(Html.ActionLink("Editar", "Edit", new { id = Model.Id }));
 #line hidden
 #nullable disable
             WriteLiteral(" |\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8140ad671e4427235c5885e12bb6a927320b3b4f8942", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8140ad671e4427235c5885e12bb6a927320b3b4f8946", async() => {
                 WriteLiteral("Voltar para a lista");
             }
             );

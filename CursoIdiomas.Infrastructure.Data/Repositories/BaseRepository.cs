@@ -43,7 +43,8 @@ namespace CursoIdiomas.Infrastructure.Data.Repositories
 
         public void Update(TEntity entity)
         {
-            db.Entry(entity).State = EntityState.Modified;
+            var entry = db.Set<TEntity>().Find(entity.Id);
+            db.Entry(entry).CurrentValues.SetValues(entity);
             db.SaveChanges();
         }
 

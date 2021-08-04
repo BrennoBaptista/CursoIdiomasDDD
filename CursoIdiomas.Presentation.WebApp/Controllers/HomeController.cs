@@ -1,4 +1,4 @@
-﻿using CursoIdiomas.Presentation.WebApp.Models;
+﻿using CursoIdiomas.Presentation.WebApp.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;

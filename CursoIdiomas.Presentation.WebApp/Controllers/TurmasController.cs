@@ -95,7 +95,7 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
                     if (!_turmaAppService.VerificarSeCodigoExiste(turma.Codigo))
                     {
                         await _turmaAppService.CreateAsync(turma);
-                        return Ok("Turma cadastrada com sucesso!"); //substituir por mostrar uma mensagem na tela
+                        return RedirectToAction(nameof(Index));
                     }
                     else
                     {
@@ -109,6 +109,8 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
                 throw e;
             }
         }
+        
+
 
         // GET: Turmas/Edit/5
         public async Task<IActionResult> Edit(Guid id)
@@ -139,7 +141,7 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
                 {
                     var turma = _mapper.Map<TurmaDTO, Turma>(turmaDTO);
                     _turmaAppService.Update(turma);
-                    return Ok("Turma atualizada com sucesso!"); //substituir por mostrar uma mensagem na tela
+                    return RedirectToAction(nameof(Index));
                 }
                 return View(turmaDTO);
             }
@@ -174,7 +176,7 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
                 if (!_turmaAppService.VerificarSeHaAlunosNaTurma(await _turmaAppService.ReadAsync(id)))
                 {
                     await _turmaAppService.DeleteAsync(id);
-                    return Ok("Turma removida com sucesso!"); //substituir por mostrar uma mensagem na tela
+                    return RedirectToAction(nameof(Index));
                 }
                 else
                 {
@@ -188,13 +190,3 @@ namespace CursoIdiomas.Presentation.WebApp.Controllers
         }
     }
 }
-
-//try
-//{
-//    await _turmaAppService.DeleteAsync(id);
-//    return Ok("Turma removida com sucesso!");
-//}
-//catch (Exception ex)
-//{
-//    throw ex;
-//}

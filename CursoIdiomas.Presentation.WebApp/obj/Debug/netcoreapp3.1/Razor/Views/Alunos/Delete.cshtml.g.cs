@@ -21,13 +21,13 @@ using CursoIdiomas.Presentation.WebApp;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\user\Desktop\CursoIdiomasDDD\CursoIdiomas.Presentation.WebApp\Views\_ViewImports.cshtml"
-using CursoIdiomas.Presentation.WebApp.Models;
+using CursoIdiomas.Presentation.WebApp.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b52a416cd5c7525702530be66914f9a402ec066e", @"/Views/Alunos/Delete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bb0cd831796efc5f6f0ea4df784e035f370b4d45", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2dcbefc13c38d2a010a719f21a4f198beff9d275", @"/Views/_ViewImports.cshtml")]
     public class Views_Alunos_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<CursoIdiomas.Application.DTO.AlunoDTO>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -180,9 +180,9 @@ using CursoIdiomas.Presentation.WebApp.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n    \r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b52a416cd5c7525702530be66914f9a402ec066e9235", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b52a416cd5c7525702530be66914f9a402ec066e9239", async() => {
                 WriteLiteral("\r\n        <input type=\"submit\" value=\"Deletar\" class=\"btn btn-danger\" /> |\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b52a416cd5c7525702530be66914f9a402ec066e9583", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b52a416cd5c7525702530be66914f9a402ec066e9587", async() => {
                     WriteLiteral("Voltar para a lista");
                 }
                 );

@@ -1,0 +1,19 @@
+CREATE TABLE [dbo].[Alunos] (
+    [Id]              UNIQUEIDENTIFIER NOT NULL,
+    [Matricula]       VARCHAR (15)     NOT NULL,
+    [Nome]            VARCHAR (50)     NOT NULL,
+    [Sobrenome]       VARCHAR (50)     NOT NULL,
+    [Telefone]        VARCHAR (13)     NOT NULL,
+    [Email]           VARCHAR (100)    NOT NULL,
+    [Endereco]        VARCHAR (150)    NOT NULL,
+    [DataCriacao]     DATE             NOT NULL,
+    [DataModificacao] DATE             NOT NULL,
+    [TurmaId]         UNIQUEIDENTIFIER DEFAULT ('00000000-0000-0000-0000-000000000000') NOT NULL,
+    CONSTRAINT [PK_Alunos] PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_Alunos_Turmas_TurmaId] FOREIGN KEY ([TurmaId]) REFERENCES [dbo].[Turmas] ([Id])
+);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_Alunos_TurmaId]
+    ON [dbo].[Alunos]([TurmaId] ASC);
